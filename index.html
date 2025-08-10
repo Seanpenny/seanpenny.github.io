@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Penny - Software Engineer & Developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <!-- Remix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <!-- Google font link --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Kenia&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SP</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                <div class="typing-container">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Sean Penny</span>
+                    </h1>
+                    <div class="typing-text">
+                        <span class="static-text">I'm a </span>
+                        <span class="dynamic-text" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                </div>
+                <p class="hero-description">
+                    Passionate software developer with expertise in full-stack development, 
+                    mobile applications, and process automation. Creating innovative solutions 
+                    that drive business growth and efficiency.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="file-name">sean_penny.js</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>
+class SeanPenny {
+  constructor() {
+    this.name = "Sean Penny";
+    this.role = "Software Engineer";
+    this.skills = [
+      "Java", "C#", "Python", "Flutter",
+      "HTML/CSS", "JavaScript", "MySQL"
+    ];
+  }
+  
+  develop() {
+    return "Innovative Solutions";
+  }
+  
+  automate() {
+    return "Process Optimization";
+  }
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="section-subtitle">Get to know the developer behind the code</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-container">
+                        <img src="circle-5090539_1280.jpg" alt="Sean Penny" class="profile-image">
+                        <div class="image-overlay">
+                            <div class="tech-stack">
+                                <span class="tech-item">Java</span>
+                                <span class="tech-item">Flutter</span>
+                                <span class="tech-item">Python</span>
+                                <span class="tech-item">C#</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <div class="about-summary">
+                        <h3>Passionate Software Developer</h3>
+                        <p>
+                            I'm a dedicated software developer with a strong foundation in the development lifecycle, 
+                            driven by a love for learning and growth. Proficient in analyzing and solving complex challenges, 
+                            with experience applying Agile methodologies to deliver innovative solutions.
+                        </p>
+                        <p>
+                            Adaptable across various technologies, I'm eager to collaborate and continuously refine my skills 
+                            in web development and software engineering.
+                        </p>
+                    </div>
+                    <div class="skills-section">
+                        <h4>Technical Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h5>Back-End Development</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">C#</span>
+                                    <span class="skill-tag">Visual Basic</span>
+                                    <span class="skill-tag">Python</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h5>Front-End Development</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">HTML/CSS</span>
+                                    <span class="skill-tag">Flutter</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h5>Additional Skills</h5>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">SDLC</span>
+                                    <span class="skill-tag">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <span>0683237489</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <span>pennpenny80@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-linkedin-box-line"></i>
+                            <a href="https://www.linkedin.com/in/sean-penny-0ba173252/" target="_blank">Sean Penny | LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+                <p class="section-subtitle">Comprehensive software solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100" onclick="showServiceDetails('mobile')">
+                    <div class="service-icon">
+                        <img src="icons8-android-48.svg" alt="Mobile Development">
+                    </div>
+                    <h3>Mobile Applications</h3>
+                    <p>Native Android development and cross-platform solutions with Flutter/Dart</p>
+                    <div class="service-features">
+                        <span class="feature">Native Android</span>
+                        <span class="feature">Flutter/Dart</span>
+                        <span class="feature">Cross-platform</span>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200" onclick="showServiceDetails('automation')">
+                    <div class="service-icon">
+                        <img src="icons8-process-50.png" alt="Automation">
+                    </div>
+                    <h3>Process Automation</h3>
+                    <p>Custom software solutions and automation for streamlined business operations</p>
+                    <div class="service-features">
+                        <span class="feature">Visual Basic</span>
+                        <span class="feature">MySQL Integration</span>
+                        <span class="feature">Excel Export</span>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300" onclick="showServiceDetails('web')">
+                    <div class="service-icon">
+                        <img src="icons8-web-development-64.png" alt="Web Development">
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>Dynamic websites and web applications with modern technologies</p>
+                    <div class="service-features">
+                        <span class="feature">React</span>
+                        <span class="feature">Node.js</span>
+                        <span class="feature">E-commerce</span>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Detail Pages -->
+    <div id="service-details" class="service-details-overlay">
+        <div class="service-details-container">
+            <div class="service-details-header">
+                <button class="close-btn" onclick="closeServiceDetails()">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <div id="mobile-details" class="service-detail-content">
+                <h2>Mobile Application Development</h2>
+                <div class="project-showcase">
+                    <div class="project-item">
+                        <h3>Delivery Mobile App</h3>
+                        <p>Cross-platform app for cannabis delivery service with admin panel</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Dart</span>
+                            <span class="tech-badge">Admin Panel</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>Gym Management System</h3>
+                        <p>User check-ins and membership tracking with scanner technology</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">Mobile App</span>
+                            <span class="tech-badge">Scanner Integration</span>
+                            <span class="tech-badge">Staff Portal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="automation-details" class="service-detail-content">
+                <h2>Process Automation & Custom Software</h2>
+                <div class="project-showcase">
+                    <div class="project-item">
+                        <h3>Departmental Process Automation</h3>
+                        <p>Visual Basic app for automating departmental processes</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">Visual Basic</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">Excel Export</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="web-details" class="service-detail-content">
+                <h2>Web Development & Applications</h2>
+                <div class="project-showcase">
+                    <div class="project-item">
+                        <h3>Barbershop Website</h3>
+                        <p>Responsive website with online booking and service management</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">Online Booking</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>Restaurant E-Commerce</h3>
+                        <p>Dynamic menu management with Stripe payment integration</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Stripe API</span>
+                            <span class="tech-badge">Dynamic Menu</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio with React frontend and Node.js backend</p>
+                        <div class="tech-used">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Contact Forms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="highlight">Portfolio</span></h2>
+                <p class="section-subtitle">Showcasing my best work and achievements</p>
+            </div>
+            <div class="portfolio-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="portfolio-image">
+                                <img src="barvber.jpg" alt="Barbershop Website">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="ri-github-fill"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="ri-external-link-line"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Barbershop Website</h3>
+                                <p>Responsive website with online booking system and service management</p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="portfolio-image">
+                                <img src="bradzink.jpg" alt="Bradz Ink Mobile App">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="ri-github-fill"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="ri-external-link-line"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Bradz Ink Mobile App</h3>
+                                <p>Mobile application for tattoo parlor with booking and gallery features</p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Dart</span>
+                                    <span class="tech-tag">Mobile UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="portfolio-image">
+                                <img src="burgerpalace.jpg" alt="Burger Palace Mobile App">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="ri-github-fill"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="ri-external-link-line"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Burger Palace Mobile App</h3>
+                                <p>Food delivery mobile application with menu and ordering system</p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Food Delivery</span>
+                                    <span class="tech-tag">Payment Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="portfolio-image">
+                                <img src="Jayfit.png" alt="Jayfit Academy App">
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-links">
+                                        <a href="#" class="portfolio-link"><i class="ri-github-fill"></i></a>
+                                        <a href="#" class="portfolio-link"><i class="ri-external-link-line"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Jayfit Academy App</h3>
+                                <p>Fitness application with workout tracking and membership management</p>
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Fitness Tracking</span>
+                                    <span class="tech-tag">Membership System</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+                        <i class="ri-arrow-left-line"></i>
+                    </button>
+                    <button class="carousel-btn next" onclick="moveCarousel(1)">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>0683237489</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>pennpenny80@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-linkedin-box-line"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/sean-penny-0ba173252/" target="_blank">Sean Penny</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ri-github-line"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Seanpenny/Sean_Penn" target="_blank">Sean_Penn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="ri-send-plane-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Sean Penny. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sean-penny-0ba173252/" target="_blank">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/Seanpenny/Sean_Penn" target="_blank">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.notion.so/12ed7f253593806b9ef4fbf29ab28720?v=141d7f25359380e582bf000cfd789c" target="_blank">
+                        <i class="ri-file-text-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
